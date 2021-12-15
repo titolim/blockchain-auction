@@ -1,0 +1,125 @@
+{
+  "contractName": "Market",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Market.sol\":\"Market\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Market.sol\":{\"keccak256\":\"0x2949da69b306287a8c22777d4d65481a0c713f3a3f9f6c43241df2a113da7d62\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ab93b18056fb86fabf23ef3d7ff720017e7abe273f8f56d9b6d39afc5e6f61d\",\"dweb:/ipfs/QmTaCjveWc6JgZ39pQkQeg9EhjaTTnVTDRhy9vEFeMAkf1\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c64474501e6becdc22d977e93323fa650c9acef7f6065717d142f02dbb82d66164736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220c64474501e6becdc22d977e93323fa650c9acef7f6065717d142f02dbb82d66164736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "213:55:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "213:55:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n\n// private: cannot be access from a child but only in the current contract\n// internal: can be accessed from a child contract in the same project\ncontract Market {\n    //function pay() public payable\n}",
+  "sourcePath": "/Users/titolim/DEV/BidMarket/contracts/Market.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Market.sol",
+    "exportedSymbols": {
+      "Market": [
+        252
+      ]
+    },
+    "id": 253,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 251,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Market",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 252,
+        "linearizedBaseContracts": [
+          252
+        ],
+        "name": "Market",
+        "nameLocation": "222:6:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 253,
+        "src": "213:55:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:236:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Market.sol",
+    "exportedSymbols": {
+      "Market": [
+        252
+      ]
+    },
+    "id": 253,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 251,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Market",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 252,
+        "linearizedBaseContracts": [
+          252
+        ],
+        "name": "Market",
+        "nameLocation": "222:6:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 253,
+        "src": "213:55:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:236:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-12T22:42:14.616Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

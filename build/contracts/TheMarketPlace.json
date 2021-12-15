@@ -1,0 +1,125 @@
+{
+  "contractName": "TheMarketPlace",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TheMarketplace.sol\":\"TheMarketPlace\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TheMarketplace.sol\":{\"keccak256\":\"0x17bb457269b23e9ec2d59c48b693081633d31270ac188a9701f643420814e00d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0524e46719042bbf721287afa69cab3eb8fe2a98aff07a79e195359e3f638ee7\",\"dweb:/ipfs/QmXfQ51ee5mU2zFjxhNdD5SEU8TKK53JBnRQiR1Y5KpPah\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a00e81866eb418e1cad29af99221ce049a293fb648f5252e0214916793f0eb5864736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a00e81866eb418e1cad29af99221ce049a293fb648f5252e0214916793f0eb5864736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "213:293:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "213:293:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n\n// private: cannot be access from a child but only in the current contract\n// internal: can be accessed from a child contract in the same project\ncontract TheMarketPlace {\n    /*\n    BidMarket[] items;\n\n    function AddItem(uint price) {\n        BidMarket item = new BidMarket();\n        items.push(item);\n    }\n\n    function startSale(uint itemPos) {\n        ShopItem sitem = item[itemPos];\n\n        sitem.startSale(price);\n    }\n    */\n}",
+  "sourcePath": "/Users/titolim/DEV/BidMarket/contracts/TheMarketplace.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TheMarketplace.sol",
+    "exportedSymbols": {
+      "TheMarketPlace": [
+        255
+      ]
+    },
+    "id": 256,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 254,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TheMarketPlace",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 255,
+        "linearizedBaseContracts": [
+          255
+        ],
+        "name": "TheMarketPlace",
+        "nameLocation": "222:14:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 256,
+        "src": "213:293:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:474:2"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/TheMarketplace.sol",
+    "exportedSymbols": {
+      "TheMarketPlace": [
+        255
+      ]
+    },
+    "id": 256,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 254,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TheMarketPlace",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 255,
+        "linearizedBaseContracts": [
+          255
+        ],
+        "name": "TheMarketPlace",
+        "nameLocation": "222:14:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 256,
+        "src": "213:293:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:474:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-12T22:42:14.617Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
